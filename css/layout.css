@@ -1,0 +1,42 @@
+/*  LAYOUT  */
+
+html, body {
+  
+  min-width: 1200px;
+  width: 100%;
+  
+}
+
+.container {
+  
+  width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.clearfix::before, 
+.clearfix::after {
+  
+  content: "";
+  display: table;
+  
+}
+
+.clearfix::after {
+  
+  clear: both;
+  
+}
+
+.page_header {
+  
+  display: block;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  
+/*  background-color: silver;*/
+  
+}
+
+/*  /LAYOUT  */
