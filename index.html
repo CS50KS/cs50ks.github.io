@@ -7,7 +7,7 @@
 <!-- Fonts -->
 <!-- CSS -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/layout.css">
+<!--  <link rel="stylesheet" href="css/layout.css">-->
   
 </head>
 <body>
@@ -16,8 +16,8 @@
   <header class="page_header">
     <div class="container clearfix">
       <div class="brand">
-        <img class="brand_logo" src="img/Logo.png" alt="Waxom Logo" width="180">
-        <h1 class="brand_name">Waxom Company</h1>
+        <a class="brand_link"><img class="brand_logo" src="img/Logo.png" alt="Waxom Logo" width="180"></a>
+        <h2 class="brand_name visually-hidden">Waxom</h2>
       </div>
       <nav class="navigation_wrapper">
         <ul class="navigation navigation-main">
@@ -44,6 +44,115 @@
     </div>
   </header>
 <!-- /Page Header -->
+
+<!-- Page Main -->
+  <main class="page_content">
+    <h1 class="visually-hidden">Waxom Company</h1>
+    
+    <!-- Slider -->
+    <section class="offers">
+      <h2 class="visually-hidden">Our offers</h2>
+      <div class="slider">
+        <input id="slide-01" class="slider_switch" type="radio" name="switch" checked>
+        <input id="slide-02" class="slider_switch" type="radio" name="switch">
+        <input id="slide-03" class="slider_switch" type="radio" name="switch">
+        <input id="slide-04" class="slider_switch" type="radio" name="switch">
+        <input id="slide-05" class="slider_switch" type="radio" name="switch">
+        <div class="slider_wrapper">
+          <ul class="slider_content container">
+            <li class="slider_slide slider_slide-01">
+              <p class="offers_slogan">
+                <span>Unique and Modern Design</span><br>
+                <strong>Portfolio PSD Template</strong><br>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+              </p>
+              <a class="btn btn-middle" href="#">Get started</a>
+            </li>
+            <li class="slider_slide slider_slide-02">
+              <p class="offers_slogan">
+                <span>Other text for slide number 2</span><br>
+                <strong>Portfolio PSD Template</strong><br>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+              </p>
+              <a class="btn btn-middle" href="#">Get started</a>
+            </li>
+            <li class="slider_slide slider_slide-03">
+              <p class="offers_slogan">
+                <span>Other text for slide number 3</span><br>
+                <strong>Portfolio PSD Template</strong><br>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+              </p>
+              <a class="btn btn-middle" href="#">Get started</a>
+            </li>
+            <li class="slider_slide slider_slide-04">
+              <p class="offers_slogan">
+                <span>Other text for slide number 4</span><br>
+                <strong>Portfolio PSD Template</strong><br>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+              </p>
+              <a class="btn btn-middle" href="#">Get started</a>
+            </li>
+            <li class="slider_slide slider_slide-05">
+              <p class="offers_slogan">
+                <span>Other text for slide number 5</span><br>
+                <strong>Portfolio PSD Template</strong><br>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+              </p>
+              <a class="btn btn-middle" href="#">Get started</a>
+            </li>
+          </ul>
+          <label class="slider_indicator" for="slide-01"></label>
+          <label class="slider_indicator" for="slide-02"></label>
+          <label class="slider_indicator" for="slide-03"></label>
+          <label class="slider_indicator" for="slide-04"></label>
+          <label class="slider_indicator" for="slide-05"></label>
+        </div>
+        <button class="slider_btn slider_btn-prev" type="button">&#8249;</button>
+        <button class="slider_btn slider_btn-next" type="button">&#8250;</button>
+      </div>
+    </section>
+    <!-- /Slider -->
+    
+    <!-- Services -->
+    <section class="services">
+      <h2 class="visually-hidden">Our services</h2>
+      <ul class="services_list container">
+        <li class="services_item">
+          <a href="#">
+            <h3 class="services_title">Web & App Design</h3>
+            <p class="services_description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+          </a>
+        </li>
+        <li class="services_item">
+          <a href="#">
+            <h3 class="services_title">Development</h3>
+            <p class="services_description">Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+          </a>
+        </li>
+        <li class="services_item">
+          <a href="#">
+            <h3 class="services_title">Customization</h3>
+            <p class="services_description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+          </a>
+        </li>
+        <li class="services_item">
+          <a href="#">
+            <h3 class="services_title">Marketing</h3>
+            <p class="services_description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- /Services -->
+    
+  </main>
+<!-- /Page Main -->
+
+<!-- Page Footer -->
+  <footer class="page_footer">
+    
+  </footer>
+<!-- /Page Footer -->
   
 </body>
 </html>
