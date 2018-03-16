@@ -31,12 +31,44 @@ html, body {
 .page_header {
   
   display: block;
-  width: auto;
   margin: 0;
   padding: 0;
   
-/*  background-color: silver;*/
+}
+
+.visually-hidden {
+  
+  display: none;
   
 }
 
 /*  /LAYOUT  */
+
+/*  BUTTON  */
+
+.btn {
+  
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+.btn-middle {
+  
+  width: 170px;
+  border-radius: 3px;
+  border-bottom: 3px solid #736357;
+  background-color: #998675;
+
+  font-size: 14px;
+  line-height: 50px;
+  text-transform: uppercase;
+  
+}
+
+/*  /BUTTON  */

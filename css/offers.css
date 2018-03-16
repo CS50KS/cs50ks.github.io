@@ -1,0 +1,182 @@
+/*  OFFERS  */
+
+.offers,
+.slider,
+.slider_wrapper,
+.slider_slide,
+.slider_indicator {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+.offers {
+  
+  display: block;
+  width: 100%;
+  
+}
+
+.slider {
+  
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.slider_switch {
+  
+  display: none;
+  
+}
+
+.slider_wrapper {
+  
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+  background-color: #454545;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+}
+
+#slide-01:checked ~ .slider_wrapper {
+  
+  background-image: url("../img/slider_slide-01.jpg");
+  
+}
+
+#slide-02:checked ~ .slider_wrapper {
+  
+  background-image: url("../img/slider_slide-02.jpg");
+  
+}
+
+#slide-03:checked ~ .slider_wrapper {
+  
+  background-image: url("../img/slider_slide-03.jpg");
+  
+}
+
+#slide-04:checked ~ .slider_wrapper {
+  
+  background-image: url("../img/slider_slide-04.jpg");
+  
+}
+
+#slide-05:checked ~ .slider_wrapper {
+  
+  background-image: url("../img/slider_slide-05.jpg");
+  
+}
+
+.slider_content {
+  
+  position: relative;
+  height: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  color: #ffffff;
+  
+}
+
+.slider_slide {
+  
+  list-style: none;
+  display: none;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  
+}
+
+#slide-01:checked ~ .slider_wrapper .slider_slide-01, 
+#slide-02:checked ~ .slider_wrapper .slider_slide-02, 
+#slide-03:checked ~ .slider_wrapper .slider_slide-03, 
+#slide-04:checked ~ .slider_wrapper .slider_slide-04, 
+#slide-05:checked ~ .slider_wrapper .slider_slide-05 {
+  
+  display: block;
+  
+}
+
+.slider_indicators {
+  
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  margin: 0 auto;
+  
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+  text-align: center;
+  
+}
+
+.slider_indicator {
+  
+  display: inline-block;
+  vertical-align: middle;
+  width: 11px;
+  height: 11px;
+  margin: 5px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-clip: padding-box;
+  cursor: pointer;
+  
+}
+
+#slide-01:checked ~ .slider_wrapper label[for="slide-01"], 
+#slide-02:checked ~ .slider_wrapper label[for="slide-02"], 
+#slide-03:checked ~ .slider_wrapper label[for="slide-03"], 
+#slide-04:checked ~ .slider_wrapper label[for="slide-04"], 
+#slide-05:checked ~ .slider_wrapper label[for="slide-05"] {
+  
+  border-color: #d3c1ad;
+  background-color: transparent;
+  
+}
+
+.no-js .slider_btn {
+  
+  display: none;
+  
+}
+
+.offers_slogan {
+  
+  margin-bottom: 46px;
+  font-size: 16px;
+  line-height: 24px;
+  
+}
+
+.offers_slogan span {
+  
+  font-size: 36px;
+  line-height: 120%;
+  
+}
+
+.offers_slogan strong {
+  
+  font-size: 52px;
+  line-height: 120%;
+  font-weight: bold;
+  
+}
+
+
+/*  /OFFERS  */
