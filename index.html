@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/offers.css">
   <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="css/realization.css">
+  <link rel="stylesheet" href="css/action.css">
+  <link rel="stylesheet" href="css/latestproject.css">
   
 </head>
 <body class="no-js">
@@ -156,8 +159,8 @@
     <!-- Realization -->
     <section class="realization">
       <div class="container">
-        <h2 class="realization_title">Waxom is realization of your ideas</h2>
-        <p class="realization_content">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+        <h2 class="realization_title">Waxom is realization of your Ideas</h2>
+        <p class="realization_content">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est<br> etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
       </div>
     </section>
     <!-- /Realization -->
@@ -176,21 +179,31 @@
     <section class="latestproject">
       <div class="container">
         <h2 class="latestproject_title">Our Latest Projects</h2>
-        <p class="latestproject_description">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+        <p class="latestproject_description">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam<br> processus dynamicus, qui sequitur mutationem consuetudium.</p>
         <form class="latestproject_categories" name="latestproject" action="#" method="post">
-          <input id="latestproject-all" type="radio" name="filter" value="all" checked>
-          <input id="latestproject-webdesign" type="radio" name="filter" value="webdesign">
-          <input id="latestproject-mobileapp" type="radio" name="filter" value="mobileapp">
-          <input id="latestproject-illustration" type="radio" name="filter" value="illustration">
-          <input id="latestproject-photo" type="radio" name="filter" value="photo">
-          <label class="latestproject_filter" for="latestproject-all">all</label>
-          <label class="latestproject_filter" for="latestproject-webdesign">web design</label>
-          <label class="latestproject_filter" for="latestproject-mobileapp">mobile app</label>
-          <label class="latestproject_filter" for="latestproject-illustration">illustration</label>
-          <label class="latestproject_filter" for="latestproject-photo">photography</label>
+          <label class="latestproject_filter">
+            <input type="radio" name="filter" value="all" checked>
+            <span>all</span>
+          </label>
+          <label class="latestproject_filter">
+            <input type="radio" name="filter" value="webdesign">
+            <span>web design</span>
+          </label>
+          <label class="latestproject_filter">
+            <input type="radio" name="filter" value="mobileapp">
+            <span>mobile app</span>
+          </label>
+          <label class="latestproject_filter">
+            <input type="radio" name="filter" value="illustration">
+            <span>illustration</span>
+          </label>
+          <label class="latestproject_filter">
+            <input type="radio" name="filter" value="photo">
+            <span>photography</span>
+          </label>
           <button class="btn btn-filter" type="submit">Load more</button>
         </form>
-        <ul class="latestproject_list">
+        <ul class="latestproject_list clearfix">
           <li class="latestproject_project">
             <figure class="view">
               <img class="view_img" src="img/view-project-1.jpg" alt="Claritas Etiam Processus image">

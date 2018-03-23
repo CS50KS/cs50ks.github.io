@@ -1,0 +1,47 @@
+/*  REALIZATION  */
+
+
+.realization,
+.realization_title,
+.realization_content {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+.realization {
+  
+  padding-top: 80px;
+  padding-bottom: 500px;
+  
+  background-color: #fbfaf8;
+  background-image: url("../img/realization-bg.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  
+  text-align: center;
+  color: #8c8c8c;
+  
+}
+
+.realization_title {
+  
+  margin-bottom: 14px;
+  
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 36px;
+  color: #555555;
+  
+}
+
+.realization_content {
+  
+  margin-bottom: 14px;
+  
+}
+
+
+/*  /REALIZATION  */

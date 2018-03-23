@@ -4,6 +4,8 @@ html, body {
   
   min-width: 1200px;
   width: 100%;
+  margin: 0;
+  padding: 0;
   background-color: #ffffff;
   color: #000000;
   
@@ -87,6 +89,25 @@ html {
   font-size: 14px;
   line-height: 50px;
   text-transform: uppercase;
+  
+}
+
+.btn-action,
+.btn-filter {
+  
+  width: 170px;
+  border-radius: 3px;
+  border-bottom: 3px solid #736357;
+  background-color: #998675;
+  color: #ffffff;
+  cursor: pointer;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 47px;
+  text-transform: uppercase;
+  text-align: center;
   
 }
 
