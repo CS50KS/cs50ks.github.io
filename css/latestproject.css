@@ -252,6 +252,36 @@
   
 }
 
+.icon-search-1::before {
+  
+  -o-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  
+}
+
+.view_link, 
+.view_zoom {
+  
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+  
+}
+
+.view_link:hover, 
+.view_zoom:hover {
+  
+  color: #c7b299;
+  
+}
+
 .latestproject_project:hover .view_overlay {
   
   bottom: 100px;

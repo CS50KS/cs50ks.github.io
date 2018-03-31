@@ -165,6 +165,8 @@
 
 .offers_slogan span {
   
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
   font-size: 36px;
   line-height: 120%;
   
@@ -172,9 +174,10 @@
 
 .offers_slogan strong {
   
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   font-size: 52px;
   line-height: 120%;
-  font-weight: bold;
   
 }
 

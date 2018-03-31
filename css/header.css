@@ -146,6 +146,36 @@
   width: 70px;
   margin: 0 15px;
   
+  background-color: transparent;
+  color: #ffffff;
+  
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.cart,
+.search {
+  
+  
+  
+}
+
+.toolsbar .cart_icon,
+.toolsbar .search_icon {
+  
+  font-size: 20px;
+  line-height: 55px;
+  
+  cursor: pointer;
+  
+}
+
+.cart_icon:hover,
+.search_icon:hover {
+  
+  color: #c7b299;
+  
 }
 
 

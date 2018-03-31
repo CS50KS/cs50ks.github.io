@@ -1,0 +1,129 @@
+/*  POSTS  */
+
+
+.posts,
+.posts_title,
+.posts_description,
+.post_slider,
+.contentslider,
+.contentslider_public,
+.public,
+.public_image {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+.posts {
+  
+  padding: 80px 0;
+  color: #8c8c8c;
+  background-color: transparent;
+  
+  font-size: 16px;
+  line-height: 28px;
+  
+}
+
+.posts_title,
+.posts_description {
+  
+  width: 770px;
+  margin: 0 auto;
+  
+  text-align: center;
+  
+}
+
+.posts_title {
+  
+  margin-bottom: 25px;
+  
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #555555;
+  
+}
+
+.post_slider {
+  
+  
+  
+}
+
+.contentslider,
+.contentslider_public {
+  
+  list-style: none;
+  
+}
+
+.contentslider_public {
+  
+  float: left;
+  width: 370px;
+  margin: 15px;
+  
+}
+
+.public {
+  
+  position: relative;
+  width: auto;
+  min-height: 395px;
+  
+}
+
+.public_image {
+  
+  position: relative;
+  display: block;
+  min-width: 100%;
+  height: auto;
+  border: none;
+  outline: none;
+  
+}
+
+.public_time {
+  
+  position: absolute;
+  width: 50px;
+  top: 20px;
+  left: 20px;
+  border-radius: 2px;
+  
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  
+  background-color: #363636;
+  color: #ffffff;
+  overflow: hidden;
+  
+}
+
+.public_time-data {
+  
+  display: block;
+  font-size: 24px;
+  line-height: 35px;
+  font-style: normal;
+  
+}
+
+.public_time-month {
+  
+  display: block;
+  font-style: normal;
+  line-height: 25px;
+  background-color: #252525;
+  
+}
+
+
+/*  /POSTS  */
