@@ -142,6 +142,7 @@
   
 }
 
+.navigation-main .navigation__link--current, 
 .navigation-main .navigation_link:hover {
   
   color: #c7b299;

@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="css/posts.css">
   <link rel="stylesheet" href="css/partners.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/toupbutton.css">
   
 </head>
 <body class="no-js">
@@ -514,11 +515,20 @@
     </div>
   </footer>
 <!-- /Page Footer -->
+
+<!-- BACKTOUP -->
+<a id="toup__button" title="Back to UP" href="#"><span class="visually-hidden">Back to UP</span></a>
+<!-- /BACKTOUP -->
  
 <!--  JAVA SCRIPTS  -->
 <script src="js/no-js.js"></script>
 <script src="js/slider.js"></script>
 <script src="js/sticky-header.js"></script>
+<script src="js/toupbutton.js"></script>
+<script>
+  var ToUpBtn = new ToUpButton("toup__button");
+  ToUpBtn.run();
+</script>
   
 </body>
 </html>
