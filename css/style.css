@@ -122,7 +122,8 @@ a:hover {
   
 }
 
-.page-main h1 {
+.page-main h1,
+.page-main h2 {
   
   margin-bottom: calc(2 * var(--gutter));
   font-family: 'Roboto', sans-serif;
@@ -130,6 +131,13 @@ a:hover {
   font-style: normal;
   font-size: var(--size-text-title-one);
   color: var(--color-blue);
+  
+}
+
+.page-main h2 {
+  
+  margin-bottom: var(--gutter);
+  font-size: calc(var(--size-text-title-one) - 10px);
   
 }
 
@@ -147,7 +155,8 @@ a:hover {
     
   }
   
-  .page-main h1 {
+  .page-main h1, 
+  .page-main h2 {
     
     margin-bottom: var(--gutter);
     
@@ -157,10 +166,18 @@ a:hover {
 
 @media (min-width: 992px) {
   
-  .page-main h1 {
+  .page-main h1,
+  .page-main h2 {
     
     font-weight: 200;
     font-size: 52px;
+    
+  }
+  
+  .page-main h2 {
+    
+    margin-bottom: 0;
+    font-size: 42px;
     
   }
   
