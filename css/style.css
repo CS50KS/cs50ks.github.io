@@ -2643,6 +2643,9 @@ h2 {
     padding-top: 2rem;
   }
 }
+#about a {
+  text-decoration: none;
+}
 
 @media only screen and (min-width: 576px) {
   #skills {
@@ -2754,13 +2757,13 @@ h2 {
   background-color: var(--blue);
   color: #ffffff;
   list-style: none;
-  -webkit-transition: left 0.5s linear;
-  transition: left 0.5s linear;
+  -webkit-transition: left 0.3s linear;
+  transition: left 0.3s linear;
 }
 [name="navigation-toggle"]:checked ~ .navigation__list {
   left: 0;
-  -webkit-transition: left 0.5s linear;
-  transition: left 0.5s linear;
+  -webkit-transition: left 0.3s linear;
+  transition: left 0.3s linear;
 }
 .navigation__item {
   margin: 0;

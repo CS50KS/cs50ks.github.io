@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document Template</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Libraries -->
+</head>
+<body>
+  
+  <!-- Component - Product List -->
+  
+  <div id="shop" class="productlist container">
+    
+    <div class="productlist__filters">
+      <form action="" name="productlist-filters">
+        <h2>Фильтр товаров</h2>
+        <fieldset name="info">
+          <legend>Информация: </legend>
+          <p class="info__total">Всего товаров в списке: <span></span></p>
+          <p class="info__selected">Выбрано для показа: <span></span></p>
+          <button type="button" name="clear">Сбросить все фильтры</button>
+        </fieldset>
+        <div class="wrapper"></div>
+        <fieldset name="price">
+          <legend>Цена: </legend>
+          <label><span>от </span><input type="number" name="price-from" min="0"></label><br>
+          <label><span>до </span><input type="number" name="price-to" min="0"></label>
+        </fieldset>
+      </form>
+      <template class="productlist__tpl productlist__tpl--checkbox">
+        <label><input type="checkbox" name=""><span></span></label>
+      </template>
+    </div>
+    
+    <div class="productlist__screen">
+      
+      <form action="" name="productlist-views">
+        <h2>Настройка вывода</h2>
+        <fieldset name="productlist-sorting">
+          <legend>Сортировка: </legend>
+          <select name="sorting">
+            <option value="1">сперва дешевле</option>
+            <option value="2">сперва дороже</option>
+            <option value="3">по названию</option>
+            <option value="4">по популярности</option>
+          </select>
+        </fieldset>
+        <fieldset name="productlist-pagination">
+          <legend>Выводить на странице: </legend>
+          <select name="pagination">
+            <option value="6">по шесть</option>
+            <option value="9">по девять</option>
+            <option value="12">по двенадцать</option>
+          </select>
+        </fieldset>
+        <fieldset name="productlist-presentation">
+          <legend>Представление: </legend>
+          <label><input type="radio" name="presentation" value="block" checked><span>плитка</span></label>
+          <label><input type="radio" name="presentation" value="list"><span>список</span></label>
+          <label><input type="radio" name="presentation" value="table"><span>таблица</span></label>
+        </fieldset>
+      </form>
+      
+      <div class="productlist__viewbox">
+        <h2>Список товаров</h2>
+        <ul class="productlist__list productlist__list--block">
+          
+          <!-- Product List -- Product -->
+          
+        </ul>
+        
+        <template class="productlist__tpl productlist__tpl--printer">
+          <li class="productlist__item">
+            <div class="product">
+              <a class="product__link" href="">
+                <img class="product__photo" src="" alt="">
+              </a>
+              <h3 class="product__title">
+                <a class="product__link" href=""></a>
+              </h3>
+              <ul class="product__info">
+                <li class="product__class"></li>
+                <li class="product__technology"></li>
+              </ul>
+              <p class="product__price product__price--ua"></p>
+            </div>
+          </li>
+        </template>
+      </div>
+      
+      <div class="productlist__pagination"></div>
+      
+    </div>
+    
+  </div>
+  
+  <script src="js/MPL_Model.js"></script>
+  <script src="js/MPL_View.js"></script>
+  <script src="js/MyProductList.js"></script>
+  <!-- /Component - Product List -->
+  
+</body>
+</html>
